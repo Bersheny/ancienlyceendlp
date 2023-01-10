@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: 100% 100%;
+  background-color: #e7e7e8;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth
+}
+
+body {
+  margin: 0
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Moon-Light';
+  src: url('Fonts/Moon2.0-Light.otf');
+}
+
+@font-face {
+  font-family: 'Moon-Regular';
+  src: url('Fonts/Moon2.0-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Moon-Bold';
+  src: url('Fonts/Moon2.0-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Archia';
+  src: url('Fonts/Archia-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Cyrene';
+  src: url('Fonts/Cyrene+Regular+Advanced.otf');
+}
+
+@font-face {
+  font-family: 'Buffalo';
+  src: url('Fonts/BuffaloScript-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Nikoleta';
+  src: url('Fonts/NIKOLETA.otf');
+}
+
+@font-face {
+  font-family: 'Futura';
+  src: url('Fonts/Futura.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('Fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-Thin';
+  src: url('Fonts/Poppins-Thin.ttf');
+}
+
+/*.headband	{
+  position: fixed;
+  top: 0px;
+  margin: auto;
+  background-color: #282a35;
+  width: 100%;
+  height:	auto;
+  z-index:1000;
+  text-underline-offset: 10px;
+}*/
+
+.headband {
+  position: fixed;
+  top: 0px;
+  margin: 0px;
+  color: #FFFFFF;
+  background-color: #282a35;
+  width: 100%;
+  height: 7%;
+  z-index: 1000;
+  opacity: 95%;
+}
+
+
+.top {
+  font-family: Poppins-Regular;
+  text-shadow: 1px 1px 2px black;
+  height: 300px;
+  background-image: url("Images/Anciens-IND-08_10_22.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 31% 69%;
+  width: auto;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 0px;
+  outline-style: groove;
+  outline-color: #282a35;
+  outline-width: 0px;
+  color: #e7e7e8;
+  padding: 1px;
+}
+
+.w3rcontainer {
+  border: 1px solid #cccfdb;
+  border-radius: 2px;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #e7e7e8;
+  text-decoration: none;
+  font-family: 'SK', sans-serif;
+  font-size: 16px;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 0.08px;
+  bottom: -2;
+  left: 0;
+  background-color: #e7e7e8;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.nav {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+
+.nav * {
+  box-sizing: border-box;
+  transition: all .35s ease;
+}
+
+.nav li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: .5em 1em;
+  padding: 0;
+}
+
+.nav a {
+  padding: .5em .8em;
+  color: #e7e7e8;
+  position: relative;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a::before,
+.nav a::after {
+  content: '';
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  transition: all .35s ease;
+  opacity: 0;
+}
+
+.nav a::before {
+  content: '';
+  right: 0;
+  top: 0;
+  border-top: 3px solid #494d61;
+  border-right: 3px solid #e7e7e8;
+  transform: translate(-100%, 50%);
+}
+
+.nav a:after {
+  content: '';
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid #494d61;
+  border-left: 3px solid #e7e7e8;
+  transform: translate(100%, -50%)
+}
+
+.nav a:hover:before,
+.nav a:hover:after {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.nav a:hover {
+  color: #e7e7e8;
+}
+
+.table1 {
+  background-color: rgba(25, 245, 124, 0.5);
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.to-top {
+  color: black;
+  padding-top: 1.8em;
+  display: inline-block;
+  /* or block */
+  position: relative;
+  border-color: black;
+  text-decoration: none;
+  transition: transform .2s;
+  /* Animation */
+}
+
+.to-top:before {
+  color: black;
+  content: '⇡';
+  font-size: .9em;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -.7em;
+  border: solid .13em black;
+  border-radius: 10em;
+  width: 1.4em;
+  height: 1.4em;
+  line-height: 1.3em;
+  border-color: inherit;
+  transition: transform .5s ease-in;
+}
+
+.to-top:hover {
+  color: black;
+  border-color: black;
+  transform: scale(1.5);
+}
+
+/*
+.to-top:hover:before{
+transform: rotate(360deg);
+}
+*/
+
+.container {
+  margin: 30px auto;
+  width: 820px;
+}
+
+.image-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-box img {
+  width: 100%;
+  transition: .5s
+}
+
+.text-box {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 52, 68, 0.5);
+  transition: 0.5s
+}
+
+.text-box h1 {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 61%;
+  width: 100%;
+  color: #FFF;
+  font-family: arial;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.text-box p {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 60%;
+  left: 61%;
+  width: 100%;
+  color: #FFF;
+  font-family: arial;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.image-box:hover .text-box {
+  left: 0%;
+}
+
+.image-box:hover img {
+  transform: scale(1.1)
+}
+
+table {
+  overflow: hidden;
+  table-layout: fixed;
+}
