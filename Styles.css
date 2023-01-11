@@ -22,52 +22,52 @@ body {
 
 @font-face {
   font-family: 'Moon-Light';
-  src: url('Fonts/Moon2.0-Light.otf');
+  src: url('fonts/Moon2.0-Light.otf');
 }
 
 @font-face {
   font-family: 'Moon-Regular';
-  src: url('Fonts/Moon2.0-Regular.otf');
+  src: url('fonts/Moon2.0-Regular.otf');
 }
 
 @font-face {
   font-family: 'Moon-Bold';
-  src: url('Fonts/Moon2.0-Bold.otf');
+  src: url('fonts/Moon2.0-Bold.otf');
 }
 
 @font-face {
   font-family: 'Archia';
-  src: url('Fonts/Archia-Regular.otf');
+  src: url('fonts/Archia-Regular.otf');
 }
 
 @font-face {
   font-family: 'Cyrene';
-  src: url('Fonts/Cyrene+Regular+Advanced.otf');
+  src: url('fonts/Cyrene+Regular+Advanced.otf');
 }
 
 @font-face {
   font-family: 'Buffalo';
-  src: url('Fonts/BuffaloScript-Regular.otf');
+  src: url('fonts/BuffaloScript-Regular.otf');
 }
 
 @font-face {
   font-family: 'Nikoleta';
-  src: url('Fonts/NIKOLETA.otf');
+  src: url('fonts/NIKOLETA.otf');
 }
 
 @font-face {
   font-family: 'Futura';
-  src: url('Fonts/Futura.ttf');
+  src: url('fonts/Futura.ttf');
 }
 
 @font-face {
   font-family: 'Poppins-Regular';
-  src: url('Fonts/Poppins-Regular.ttf');
+  src: url('fonts/Poppins-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Poppins-Thin';
-  src: url('Fonts/Poppins-Thin.ttf');
+  src: url('fonts/Poppins-Thin.ttf');
 }
 
 /*.headband	{
