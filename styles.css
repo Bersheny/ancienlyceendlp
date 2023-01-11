@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 
 html {
   -webkit-background-size: cover;
@@ -6,7 +6,7 @@ html {
   -o-background-size: cover;
   background-size: cover;
   background-size: 100% 100%;
-  background-color: #e7e7e8;
+  background-color: #FFFFFF;
   color: black;
   font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth
@@ -82,34 +82,53 @@ body {
 }*/
 
 .headband {
-  position: fixed;
   top: 0px;
   margin: 0px;
   color: #FFFFFF;
-  background-color: rgba(244, 244, 244, 1);
+  background-color: rgba(255, 255, 255, 1);
   width: 100%;
-  height: auto;
+  height: 80px;
   z-index: 1000;
   opacity: 100%;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: #dee2e6;
+  font-family: Georgia, serif;
 }
 
 
 .top {
   font-family: Poppins-Regular;
-  text-shadow: 1px 1px 2px black;
   height: 300px;
+  /*
   background-image: url("images/Anciens-IND-08_10_22.jpeg");
   background-repeat: no-repeat;
+  */
   background-size: 100%;
   background-position: 31% 69%;
   width: auto;
   text-align: center;
   letter-spacing: 5px;
   font-size: 0px;
-  outline-style: groove;
-  outline-color: #282a35;
-  outline-width: 0px;
-  color: #e7e7e8;
+  color: #2DAAE1;
+  padding: 1px;
+}
+
+.top2 {
+  font-family: Poppins-Regular;
+  height: 60%;
+  background-image: url("images/Anciens-IND-08_10_22t.jpeg.png");
+  background-color: #2daae1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 31% 69%;
+  width: auto;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 0px;
+  color: #2DAAE1;
   padding: 1px;
 }
 
@@ -121,7 +140,7 @@ body {
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: black;
+  color: #2DAAE1;
   text-decoration: none;
   font-family: 'SK', sans-serif;
   font-size: 16px;
@@ -132,10 +151,10 @@ body {
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 0.08px;
+  height: 1.8px;
   bottom: -2;
   left: 0;
-  background-color: black;
+  background-color: #2DAAE1;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -145,6 +164,7 @@ body {
   transform-origin: bottom left;
 }
 
+/*
 .nav {
   text-transform: uppercase;
   text-align: center;
@@ -208,6 +228,7 @@ body {
 .nav a:hover {
   color: #e7e7e8;
 }
+*/
 
 .table1 {
   background-color: rgba(25, 245, 124, 0.5);
