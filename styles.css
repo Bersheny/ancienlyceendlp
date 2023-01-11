@@ -86,11 +86,11 @@ body {
   top: 0px;
   margin: 0px;
   color: #FFFFFF;
-  background-color: #282a35;
+  background-color: rgba(244, 244, 244, 1);
   width: 100%;
-  height: 7%;
+  height: auto;
   z-index: 1000;
-  opacity: 95%;
+  opacity: 100%;
 }
 
 
@@ -98,7 +98,7 @@ body {
   font-family: Poppins-Regular;
   text-shadow: 1px 1px 2px black;
   height: 300px;
-  background-image: url("Images/Anciens-IND-08_10_22.jpeg");
+  background-image: url("images/Anciens-IND-08_10_22.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 31% 69%;
@@ -121,7 +121,7 @@ body {
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: #e7e7e8;
+  color: black;
   text-decoration: none;
   font-family: 'SK', sans-serif;
   font-size: 16px;
@@ -135,7 +135,7 @@ body {
   height: 0.08px;
   bottom: -2;
   left: 0;
-  background-color: #e7e7e8;
+  background-color: black;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
