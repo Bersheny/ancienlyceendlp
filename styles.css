@@ -99,7 +99,7 @@ body {
 
 .top {
   font-family: Poppins-Regular;
-  height: 300px;
+  height: 35%;
   /*
   background-image: url("images/Anciens-IND-08_10_22.jpeg");
   background-repeat: no-repeat;
@@ -116,7 +116,7 @@ body {
 
 .top2 {
   font-family: Poppins-Regular;
-  height: 60%;
+  height: auto;
   background-image: url("images/Anciens-IND-08_10_22t.png");
   background-color: #2daae1;
   background-attachment: fixed;
