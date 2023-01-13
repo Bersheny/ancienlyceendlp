@@ -101,7 +101,7 @@ body {
   font-family: Poppins-Regular;
   height: auto;
   /*
-  background-image: url("images/Anciens-IND-08_10_22.jpeg");
+  background-image: url("images/Avranche-groupe-notre-dame--1-.jpeg");
   background-repeat: no-repeat;
   */
   background-size: 100%;
@@ -132,6 +132,22 @@ body {
   padding: 1px;
 }
 
+.bottom {
+  font-family: Poppins-Regular;
+  height: auto;
+  background-color: #303440;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 31% 69%;
+  width: auto;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 0px;
+  color: #CCCCCC;
+  padding: 1px;
+}
 .w3rcontainer {
   border: 1px solid #cccfdb;
   border-radius: 2px;
