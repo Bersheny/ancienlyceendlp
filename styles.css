@@ -99,7 +99,7 @@ body {
 
 .top {
   font-family: Poppins-Regular;
-  height: 35%;
+  height: auto;
   /*
   background-image: url("images/Anciens-IND-08_10_22.jpeg");
   background-repeat: no-repeat;
