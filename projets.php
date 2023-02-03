@@ -1,68 +1,39 @@
 <html>
 
-<style>
-  hr {
-    border-top: 5px dashed #f4f4f4;
-  }
-</style>
-
 <head>
 
-  <title>Anciens NDLP - Histoire</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <meta charset="utf-8">
+	<title>Anciens NDLP - Accueil</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta charset="utf-8">
 
 </head>
 
 <body>
 
-  <div class="headband" align="center"><br>
-    <table width=99% border=0 style="font-size:30px">
-      <td width="20%">
-        <a href="https://www.facebook.com/ancienslyceendlp" target="_blank"><img src="images\icons8-facebook-100.png"
-            width=13% class="zoom"></a>
-      </td>
-      <td align=center width="60%">
-        <table>
-          <td align=center style="padding-right: 15px">
-            <li class="hover-underline-animation"><a href="index.html"
-                style="text-decoration:none; font-family: Roboto; font-size:20px; color:black">ACCUEIL</a>
-            </li>
-          </td>
-          <td align=center style="padding-right: 15px">
-            <li class="hover-underline-animation"><a href="histoire.html"
-                style="text-decoration:none; font-family: Roboto; font-size:20px; color:black">HISTOIRE</a>
-            </li>
-          </td>
-          <td align=center style="padding-right: 15px">
-            <li class="hover-underline-animation"><a href="membres.html"
-                style="text-decoration:none; font-family: Roboto; font-size:20px; color:black">MEMBRES</a>
-            </li>
-          </td>
-          <td align=center style="padding-right: 15px">
-            <li class="hover-underline-animation"><a href="projets.html"
-                style="text-decoration:none; font-family: Roboto; font-size:20px; color:black">PROJETS</a>
-            </li>
-          </td>
-          <td align=center>
-            <li class="hover-underline-animation"><a href="contact.html"
-                style="text-decoration:none; font-family: Roboto; font-size:20px; color:black">CONTACT</a>
-            </li>
-          </td>
-        </table>
-      <td width="20%"></td>
-      </td>
-    </table>
-  </div>
+    <?php
+		include 'navigation.php'	
+	?>
 
-  <div class="top">
-	<h1 style="font-size:45px; color:#000E32"><br>Anciens NDLP</h1>
-	<h2 style="font-size:30px; color:#2DAAE1; line-height:1px">Histoire</h2>
-	<img src="images\logo_ndlp.jpg" width=13%>
-	<h1 style="font-size:45px; color:white"><br></h1>
-</div>
+	<div class="top">
+		<h1 style="font-size:15px; color:white"><br></h1>
+		<img src="images\logo_ndlp.jpg" width=13%>
+		<h1 style="font-size:35px; color:#000E32"><br>Anciens NDLP</h1>
+		<h1 style="font-size:15px; color:white"><br></h1>
+	</div>
 
-  <table align="center" width="95%" cellspacing=30>
+	<div class="top2">
+		<h1 style="font-size:45px; color:white"><br><u>Quelle est cette association ?</u></h1>
+		<table align="center" width="95%" cellspacing=30>
+			<td align=center width="66%">
+				<blockquote align=justify style="font-size:20px; color:white">
+					L'association des anciens élèves et amis du l'Institut Notre Dame de La Providence est une association créée en [.....] dans le but de [.....]
+					lors de sa création elle comptais [....] membres. Aujourd'hui dirigée par 
+				</blockquote><br><br>
+			</td>
+		</table>
+	</div>
+
+	<table align="center" width="95%" cellspacing=30>
 		<tr>
 			<td></td>
 			<td></td>
@@ -139,10 +110,25 @@
 		</tr>
 	</table>
 
-  <br><br><br>
-
-  <p style="text-align:center"><a href="#" class="to-top">Revenir en haut de la page</a></p>
+	<br><br><br>
 
 </body>
+
+<footer>
+
+	<div class="bottom">
+		<h1 style="font-size:15px; color:white"><br></h1>
+		<img src="images\logo_ndlp-removebg-preview.png" width=13%>
+
+		<h3 style="font-size:15px; color:#CCCCCC"><br><u><b>Contact</u></b></h3>
+		<h3 style="font-size:12px; color:#CCCCCC">
+		Siège social : Institut Notre-Dame, 9 Rue Chanoine Béranger, BP 340, 50303 AVRANCHES CEDEX<br>
+		Téléphone : 02 33 58 02 22</h3>
+		<h1 style="font-size:35px; color:#CCCCCC">Anciens NDLP</h1>
+		<p style="text-align:center"><a href="#accueil" class="to-top">Revenir en haut de la page</a></p>
+		<h1 style="font-size:15px; color:white"><br></h1>
+	</div>
+	
+</footer>
 
 </html>
