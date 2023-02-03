@@ -29,7 +29,7 @@
 		</tr>
 		<tr>
 			<td width="30%">
-                <div class="carreaux_presentation_light" style="background-image: 'images/inconnu.PNG';">
+                <div class="carreaux_presentation_light" style="background-image:url(https://i.imgur.com/m05rvJm.png);">
                     <div class="shadow_swhow_mini">
                         <div class="deroul_titre">Dominique</div>
                         <div class="deroul_soustitre">DUMONT</div>
@@ -41,9 +41,7 @@
 					<br>
 					<h2 align=center style="font-family:Futura">Président de L'association</h2>
 					<blockquote align=justify>
-					 Président de L'association
-					<br><br>
-					L'abbaye Blanche est située, près de la Cance, à la sortie nord du bourg de Mortain, commune déléguée de la commune nouvelle de Mortain-Bocage, dans le département français de la Manche.<br><br>
+					En tant que représentant légal de l’association 1901, le président est celui qui a le plus de responsabilités dans la structure. En effet, il a la lourde tâche de la représenter auprès des tiers : partenaires, presse, institutions publiques, autres associations…<br><br>
 					</blockquote>
 				</blockquote>
 			</td>
@@ -52,52 +50,54 @@
 
 	<br><br>
 
-	<table align="center" width="95%" cellspacing=30>
+	<table align="center" cellspacing=30>
 		<tr>
 			<td></td>
 			<td></td>
 		</tr>
 		<tr>
-			<td align="center" bgcolor=#f4f4f4>
+			<td align="center" bgcolor=#f4f4f4 width='70%'>
 				<blockquote>
 					<br>
-					<h2 align=center style="font-family:Futura">École Sainte Marie, Ducey</h2>
+					<h2 align=center style="font-family:Futura">Secrétaire</h2>
 					<blockquote align=justify>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-					et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-					culpa qui officia deserunt mollit anim id est laborum.<br><br>
+					Le secrétaire s’acquitte de nombreuses missions au sein de l’association loi 1901. À la fois administrateur et formaliste, il se charge principalement de la gestion administrative, mais également de la cohésion de la structure
 					</blockquote>
 				</blockquote>
+            </td>
+            <td width="30%">
+                <div class="carreaux_presentation_light" style="background-image:url(https://i.imgur.com/m05rvJm.png);">
+                    <div class="shadow_swhow_mini">
+                        <div class="deroul_titre">[Prénom]</div>
+                        <div class="deroul_soustitre">[Nom]</div>
+                    </div>
+                </div> 
 			</td>
-			<td>
-				<img src="images/s-l1600.jpg" width=100% class="zoom">
 			</td>
 		</tr>
 	</table>
 
 	<br><br>
 
-	<table align="center" width="95%" cellspacing=30>
+	<table align="center" cellspacing=30>
 		<tr>
 			<td></td>
 			<td></td>
 		</tr>
 		<tr>
-			<td>
-				<img src="images/Avranche-groupe-notre-dame--1-.jpeg" width=100% class="zoom">
+			<td width='30%'>
+                <div class="carreaux_presentation_light" style="background-image:url(https://i.imgur.com/m05rvJm.png);">
+                        <div class="shadow_swhow_mini">
+                            <div class="deroul_titre">[Prénom]</div>
+                            <div class="deroul_soustitre">[Nom]</div>
+                </div>
 			</td>
-			<td align="center" bgcolor=#f4f4f4>
+			<td align="center" bgcolor=#f4f4f4 width='70%'>
 				<blockquote>
 					<br>
-					<h2 align=center style="font-family:Futura">Institut / Lycée Notre Dame de La Providence, Avranches</h2>
+					<h2 align=center style="font-family:Futura"> Trésorier</h2>
 					<blockquote align=justify>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-					et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-					culpa qui officia deserunt mollit anim id est laborum.<br><br>
+                        Le trésorier est en charge de la gestion financière et fiscale de l’organisation à but non lucratif. Il est donc responsable des comptes et des finances de la structure.
 					</blockquote>
 				</blockquote>
 			</td>

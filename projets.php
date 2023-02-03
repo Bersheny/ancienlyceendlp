@@ -22,95 +22,36 @@
 	</div>
 
 	<div class="top2">
-		<h1 style="font-size:45px; color:white"><br><u>Quelle est cette association ?</u></h1>
+		<h1 style="font-size:45px; color:white"><br><u>Quels projets ?</u></h1>
 		<table align="center" width="95%" cellspacing=30>
 			<td align=center width="66%">
-				<blockquote align=justify style="font-size:20px; color:white">
-					L'association des anciens élèves et amis du l'Institut Notre Dame de La Providence est une association créée en [.....] dans le but de [.....]
-					lors de sa création elle comptais [....] membres. Aujourd'hui dirigée par 
+				<blockquote align=center style="font-size:20px; color:white">
+					Les projets de l'association sont rythmés par différentes réunions et interventions que voici.
 				</blockquote><br><br>
 			</td>
 		</table>
 	</div>
 
-	<table align="center" width="95%" cellspacing=30>
+	<table align="center" cellspacing=30>
 		<tr>
 			<td></td>
 			<td></td>
 		</tr>
 		<tr>
-			<td>
-				<img src="images/MjAxODA2YjY3NTc3NWE0ZDVlY2FlZTEyOTFmZmIzN2I4NGIzOTE.jpg" width=100% class="zoom">
+			<td width="30%">
+				<img src="images/AG.png" width=100% class="zoom">
 			</td>
-			<td align="center" bgcolor=#f4f4f4>
+			<td align="center" bgcolor=#f4f4f4 width="70%">
 				<blockquote>
 					<br>
-					<h2 align=center style="font-family:Futura">Abbaye Blanche, Mortain</h2>
+					<h2 align=center style="font-family:Futura">Réunion Assemblée Générale</h2>
 					<blockquote align=justify>
-					L'abbaye Blanche est une ancienne abbaye de l'ordre de Savigny fondée en 1105, puis cistercienne en 1148, qui se dresse sur le territoire de l'ancienne commune française de Mortain dans le département de la Manche, en région Normandie.
-					<br><br>
-					L'abbaye Blanche est située, près de la Cance, à la sortie nord du bourg de Mortain, commune déléguée de la commune nouvelle de Mortain-Bocage, dans le département français de la Manche.<br><br>
+					    L'assemblé générale aura lieu le [......] à [..Lieu..]. [..Information diverses..]
 					</blockquote>
 				</blockquote>
 			</td>
 		</tr>
 	</table>
-
-	<br><br>
-
-	<table align="center" width="95%" cellspacing=30>
-		<tr>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td align="center" bgcolor=#f4f4f4>
-				<blockquote>
-					<br>
-					<h2 align=center style="font-family:Futura">École Sainte Marie, Ducey</h2>
-					<blockquote align=justify>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-					et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-					culpa qui officia deserunt mollit anim id est laborum.<br><br>
-					</blockquote>
-				</blockquote>
-			</td>
-			<td>
-				<img src="images/s-l1600.jpg" width=100% class="zoom">
-			</td>
-		</tr>
-	</table>
-
-	<br><br>
-
-	<table align="center" width="95%" cellspacing=30>
-		<tr>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>
-				<img src="images/Avranche-groupe-notre-dame--1-.jpeg" width=100% class="zoom">
-			</td>
-			<td align="center" bgcolor=#f4f4f4>
-				<blockquote>
-					<br>
-					<h2 align=center style="font-family:Futura">Institut / Lycée Notre Dame de La Providence, Avranches</h2>
-					<blockquote align=justify>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-					et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-					culpa qui officia deserunt mollit anim id est laborum.<br><br>
-					</blockquote>
-				</blockquote>
-			</td>
-		</tr>
-	</table>
-
-	<br><br><br>
 
 </body>
 
